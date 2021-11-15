@@ -10,7 +10,7 @@ const Nav = ({ navOpen }) => {
   
   return (
     <nav className={nav}>
-      <ul className={navOpen ? 'hidden' + ul : ul}>
+      <ul className={navOpen ? ul : 'hidden' + ul}>
         {navItems}
       </ul>
     </nav>
