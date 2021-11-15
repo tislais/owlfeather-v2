@@ -12,7 +12,7 @@ const footer = `
   mt-auto
   py-4
   bg-black
-  bg-opacity-25
+  bg-opacity-20
   text-black
   text-opacity-75
   text-center
