@@ -1,10 +1,10 @@
 import React from 'react'
 import { MenuIcon } from '@heroicons/react/solid'
 
-const Header = () => {
+const Header = ({ handleMenuClick }) => {
   return (
     <header className={header}>
-      <MenuIcon className={menu} />
+      <MenuIcon className={menu} onClick={handleMenuClick} />
       <h1 className={h1}>Project Owlfeather</h1>
     </header>
   )
