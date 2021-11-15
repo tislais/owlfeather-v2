@@ -3,7 +3,7 @@
 ## Tailwind Demo
 * Mobile-first design
 * Responsive layout
-* Zero lines of CSS written
+* All Tailwind, no CSS
 
 ## Resources
 * [React + Tailwind Installation](https://tailwindcss.com/docs/guides/create-react-app)
