@@ -13,13 +13,19 @@ const App = () => {
     <>
       <section>
         <Header handleMenuClick={handleMenuClick} />
-        <Nav navOpen={navOpen} />
-        <Main />
+        <div className={div}>
+          <Nav navOpen={navOpen} />
+          <Main />
+        </div>
       </section>
       <Footer />
     </>
   );
 }
 
+const div = `
+  lg:flex
+  justify-center
+`
 
 export default App;

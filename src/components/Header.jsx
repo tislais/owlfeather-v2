@@ -4,8 +4,10 @@ import { MenuIcon } from '@heroicons/react/solid'
 const Header = ({ handleMenuClick }) => {
   return (
     <header className={header}>
-      <MenuIcon className={menu} onClick={handleMenuClick} />
-      <h1 className={h1}>Project Owlfeather</h1>
+      <div class={div}>
+        <MenuIcon className={menu} onClick={handleMenuClick} />
+        <h1 className={h1}>Project Owlfeather</h1>
+      </div>
     </header>
   )
 }
@@ -23,8 +25,13 @@ const header = `
   border-black 
   border-opacity-30
 
+`
+
+const div = `
+  max-w-screen-xl
   flex
   gap-4
+  mx-auto
 `
 
 const h1 = `
@@ -36,6 +43,7 @@ const h1 = `
 const menu = `
   h-6
   hover:text-green-700
+  sm:hidden
 `
 
 export default Header;

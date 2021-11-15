@@ -16,11 +16,11 @@ const footer = `
   text-black
   text-opacity-75
   text-center
+  lg:text-gray-400
 `
 
 const a = `
   tracking-wider
-  font-semibold
   text-sm
   italic
 `

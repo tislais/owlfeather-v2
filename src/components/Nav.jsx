@@ -9,16 +9,31 @@ const Nav = ({ navOpen }) => {
   )
   
   return (
-    <nav>
-      <ul className={navOpen ? ul : ul + 'hidden'}>
+    <nav className={nav}>
+      <ul className={navOpen ? 'hidden' + ul : ul}>
         {navItems}
       </ul>
     </nav>
   )
 }
 
+const nav = `
+`
+
 const ul = `
   bg-gray-800
+  sm:block
+  sm:flex
+
+  lg:flex-col
+  lg:my-4
+  lg:ml-4
+  lg:bg-gray-900
+  lg:rounded-xl
+  lg:p-4
+  lg:max-w-max
+  lg:max-h-max
+  lg:gap-2
 `
 
 export default Nav;
