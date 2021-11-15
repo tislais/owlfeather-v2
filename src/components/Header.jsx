@@ -2,7 +2,9 @@ import React from 'react';
 
 const Header = () => {
   return (
-    null
+    <header>
+      <h1>Project Owlfeather</h1>
+    </header>
   )
 }
 
