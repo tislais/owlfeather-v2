@@ -10,13 +10,16 @@ const App = () => {
     setNavOpen(prev => !prev)
   }
   return (
-   <>
-    <Header handleMenuClick={handleMenuClick} />
-    <Nav navOpen={navOpen} />
-    <Main />
-    <Footer />
-   </>
+    <>
+      <section>
+        <Header handleMenuClick={handleMenuClick} />
+        <Nav navOpen={navOpen} />
+        <Main />
+      </section>
+      <Footer />
+    </>
   );
 }
+
 
 export default App;
